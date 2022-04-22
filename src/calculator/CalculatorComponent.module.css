@@ -5,9 +5,7 @@
 }
 
 .buttonContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    display: inline-block;
     margin-top: 1em;
 }
 
@@ -47,6 +45,18 @@
     cursor: pointer;
     font-size: 48px;
     padding: 1em;
+    width: 3.25em;
+    margin: .25em;
+    border-radius: 200px;
+}
+
+.zeroButton {
+    background-color: #313131;
+    color: #F3F3F3;
+    cursor: pointer;
+    font-size: 48px;
+    padding: 1em;
+    width: 7em;
     margin: .25em;
     border-radius: 200px;
 }
@@ -56,6 +66,18 @@
     color: #F6F6F6;
     cursor: pointer;
     font-size: 48px;
+    padding: 1em;
+    width: 3.25em;
+    margin: .25em;
+    border-radius: 200px;
+}
+
+.secondaryFunctionButton {
+    background-color: #9F9F9F;
+    color: #000000;
+    cursor: pointer;
+    font-size: 48px;
+    width: 3.25em;
     padding: 1em;
     margin: .25em;
     border-radius: 200px;
